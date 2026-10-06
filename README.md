@@ -41,10 +41,9 @@ dubai-uhi-gfm/
 Run from the repository root:
 
 ```bash
-python -m src.benchmark        # ~15–30 min (samples 4 cities, trains 4 model families)
-python -m src.hotspots         # ~10–20 min, starts two Drive exports for Fig. 2
-python -m src.lcz              # ~5–10 min
-python -m src.shap_drivers     # ~5 min
+python -m src.benchmark      
+python -m src.hotspots       
+
 ```
 ## Key settings (see `src/config.py`)
 
