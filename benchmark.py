@@ -1,12 +1,4 @@
-"""
-Benchmark of AlphaEarth embeddings vs conventional inputs (paper Tables I–III).
 
-  Table I   : spatial block CV R² for 4 input configurations x 4 model families (Dubai)
-  Table II  : label efficiency, R² vs number of training samples
-  Table III : cross-city transfer (Dubai -> Abu Dhabi, Doha, Riyadh), pattern correlation r
-
-Run:  python -m src.benchmark
-"""
 import os
 import time
 import warnings
